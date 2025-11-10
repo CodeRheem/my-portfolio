@@ -2,14 +2,8 @@ import React from "react";
 import downloadImage from "../assets/images/download.jpeg";
 
 export default function NavBar() {
-
   return (
-    <div
-      className="min-h-screen bg-cover bg-center bg-no-repeat relative bg-black"
-    >
-      {/* Overlay for better text readability */}
-      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
-
+    <div className="min-h-screen bg-cover bg-center bg-no-repeat relative bg-black">
       <div className="relative z-10 min-h-screen">
         {/* Navigation Bar */}
         <div className="flex justify-between items-center px-8 py-6 bg-black/30 backdrop-blur-lg border-b border-white/10 ">
@@ -87,31 +81,31 @@ export default function NavBar() {
             </h2>
 
             {/* Social Links */}
-            <p className="flex gap-6 justify-center pt-8 opacity-0 animate-fade-in-scale">
+            <p className="flex gap-6 justify-center pt-[-9] opacity-0 animate-fade-in-scale">
               <a
-                href="https://facebook.com"
-                className="p-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/50 transform hover:-translate-y-1"
-                aria-label="Facebook"
+                href="mailto:your.email@example.com"
+                className="p-1 bg-black text-white rounded-full transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-red-500/50 transform hover:-translate-y-1"
+                aria-label="Email"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="28"
+                  width="19"
+                  height="19"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                 >
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
                 </svg>
               </a>
               <a
-                href="https://twitter.com"
-                className="p-4 bg-sky-500 hover:bg-sky-600 text-white rounded-full transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-sky-500/50 transform hover:-translate-y-1"
+                href="https://x.com/IbraheemAb31008"
+                className="p-1 bg-black hover:bg-sky-600 text-white rounded-full transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-sky-500/50 transform hover:-translate-y-1"
                 aria-label="Twitter"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="28"
+                  width="19"
+                  height="19"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                 >
@@ -120,13 +114,13 @@ export default function NavBar() {
               </a>
               <a
                 href="https://linkedin.com"
-                className="p-4 bg-blue-700 hover:bg-blue-800 text-white rounded-full transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-blue-700/50 transform hover:-translate-y-1"
+                className="p-1 bg-black hover:bg-blue-800 text-white rounded-full transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-blue-700/50 transform hover:-translate-y-1"
                 aria-label="LinkedIn"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="28"
+                  width="19"
+                  height="15"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                 >
@@ -135,13 +129,13 @@ export default function NavBar() {
               </a>
               <a
                 href="https://github.com"
-                className="p-4 bg-gray-800 hover:bg-gray-900 text-white rounded-full transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-gray-800/50 transform hover:-translate-y-1"
+                className="p-1 bg-black hover:bg-gray-900 text-white rounded-full transition-all duration-300 hover:scale-110 hover:shadow-2xl hover:shadow-gray-800/50 transform hover:-translate-y-1"
                 aria-label="GitHub"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="28"
+                  width="19"
+                  height="19"
                   viewBox="0 0 24 24"
                   fill="currentColor"
                 >
