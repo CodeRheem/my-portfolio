@@ -40,9 +40,9 @@ export default function EducationSection() {
   ];
 
   const experience = [
-    { role: "Frontend Developer", company: "Tech Company", duration: "2023-Present" },
+    { role: "Frontend Developer", company: "NIL", duration: "2023-Present" },
     { role: "Junior Developer", company: "Startup Inc", duration: "2022-2023" },
-    { role: "Intern", company: "Digital Agency", duration: "2021-2022" }
+    { role: "Intern", company: "Digital Agency", duration: "2026" }
   ];
 
   return (
