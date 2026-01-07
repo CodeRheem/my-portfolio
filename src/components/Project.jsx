@@ -17,11 +17,11 @@ export default function ProjectsSection() {
     },
     {
       title: "Break-Fitnezz - Fitness App.",
-      description: "Another awesome project showcasing your skills. Explain the key features and technologies used.",
-      image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop",
-      tags: ["JavaScript", "API", "CSS"],
-      liveLink: "https://your-project-link.com",
-      githubLink: "https://github.com/yourusername/project",
+      description: "A fitness web application that helps users register for workout through gym instructor, and access exercise routines.",
+      image: "https://plus.unsplash.com/premium_photo-1670505062582-fdaa83c23c9e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zml0bmVzc3xlbnwwfHwwfHx8MA%3D%3D",
+      tags: ["JavaScript", "React", "Tailwind"],
+      liveLink: "https://break-fitnezz.vercel.app/",
+      githubLink: "https://github.com/CodeRheem/Break-Fitnezz",
       featured: true
     },
     {
@@ -145,7 +145,7 @@ export default function ProjectsSection() {
         }
       `}</style>
       
-      <div className="min-h-screen bg-linear-to-br from-gray-950 via-gray-900 to-black py-10 px-4">
+      <div className="min-h-screen bg-linear-to-br from-gray-950 via-gray-900 to-black py-10 px-4" id="projects">
         {/* Section Header */}
         <div className="max-w-4xl mx-auto mb-10 text-center">
           <div className="flex items-center justify-center gap-4 mb-4">
